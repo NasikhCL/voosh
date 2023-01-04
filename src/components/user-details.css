@@ -1,0 +1,18 @@
+.user-details-card{
+    height:auto;
+    width: 80%;
+    margin:auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.user-details-card h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color:#2d66f5;
+}
+.user-details-card p{
+    color: rgb(93, 92, 92);
+    font-weight: bold;
+    margin-bottom: 20px;
+}

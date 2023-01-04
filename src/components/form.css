@@ -1,0 +1,61 @@
+
+.book-demo{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('https://voosh.in/static/media/book_now_bg.e9f9294653918137cd78.webp');
+    background-size: cover;
+}
+.book-demo-form-title{
+    /* outline: auto; */
+    /* width: 50%; */
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color:white;
+    margin: 20px 0;
+}
+.book-demo-form-container{
+    /* width: 50%; */
+    width: 400px;
+    height:auto;
+    background-color: white;
+    border-radius: 7px;
+}
+.book-demo-form{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+}
+.book-demo-form input{
+    background-color: #eff0f3;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    margin: 5px 0 15px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.book-demo-form button{
+    background-color: #2d66f5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: medium;
+}
+@media screen and (max-width:768px) {
+    .book-demo-form-title{
+        font-size: 5vw;
+    }
+    .book-demo-form-container{
+        width:270px;
+    }
+
+    
+}
