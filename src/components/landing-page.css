@@ -131,7 +131,10 @@
 
 @media screen and (max-width:425px) {
 
+    .landing-page{
     
+        height: 50vh;
+    }
     .landing-items .left{
         padding-top: 10px;
         padding-left: 50px;
