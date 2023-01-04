@@ -1,25 +1,69 @@
 .brand-logos{
-    outline: auto;
+    /* outline: auto; */
     bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
     /* margin: 0 0 2vw 2vw; */
     position: absolute;
     left:10px;
-    width: 40vw;
+    height: 100%;
+    width: 100%;
 }
-
+.page1-outlet-icons{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+.page1-outlet-icon1{
+    position: absolute;
+    margin-left: 10%;
+    bottom:-5%;
+}
+.page1-outlet-icon2{
+    position: absolute;
+    margin-left: 30%;
+    top: 50%;
+}
+.page1-outlet-icon3{
+    position: absolute;
+    margin-left: 45%;
+    bottom: 10%;
+}
+.page1-outlet-icon4{
+    position: absolute;
+    margin-left: 50%;
+    bottom: 50%;
+}
+.page1-outlet-icon5{
+    position: absolute;
+    margin-left: 60%;
+    top: 10%;
+}
+.page1-outlet-icon6{
+    position: absolute;
+    margin-left: 80%;
+    top: 14%;
+}
 
 /* tablet devices */
 
 @media screen and (max-width:768px) {
+    .brand-logos{
+        outline: auto;
+        bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin: 0 0 2vw 2vw; */
+        position: absolute;
+        left:10px;
+        width: 40vw;
+    }
+    
 
     .page1-outlet-icons{
-        /* object-fit: contain; */
-        /* position: absolute; */
-        /* margin: 0 1vw 1vw; */
-        /* object-fit: contain; */
+     
         margin: 5px;
         width: 80px;
     }

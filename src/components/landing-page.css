@@ -1,8 +1,8 @@
 .landing-page{
     width: 100%;
     height: 100vh;
-    margin-bottom: 500px;
-    outline: auto;
+    margin-bottom: 300px;
+    /* outline: auto; */
     position: relative;
 }
 .landing-page .navbar{
@@ -60,8 +60,7 @@
     font-weight: 500;
 }
 .landing-items .left .book-btn{
-    /* width:200px;
-    height: 100px; */
+    z-index: 1;
     text-decoration: none;
     width:120px;
     margin-top: 70px;
@@ -134,7 +133,7 @@
 
     .landing-page{
     
-        height: 55vh;
+        height: 60vh;
     }
     .landing-items{
       
