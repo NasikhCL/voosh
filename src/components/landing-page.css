@@ -2,20 +2,13 @@
     width: 100%;
     height: 100vh;
     margin-bottom: 500px;
-    
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* background-image:url('https://voosh.in/static/media/landing_bg.da8497cd24d321282c0d.webp') ; */
-    /* object-fit: cover; */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
+    outline: auto;
 }
 .landing-page .navbar{
     position: absolute;
     padding: 10px 30px;
     width: 150px;
-    /* height: 30px; */
-    /* outline: auto; */
+
 }
 .landing-page .navbar img{
     width: 100%;
@@ -62,7 +55,7 @@
 }
 .landing-items .left .sub-title{
     font-size: 1.1vw;
-    margin-top: 30px;
+    margin-top: 20px;
     font-weight: 500;
 }
 .landing-items .left .book-btn{
@@ -77,6 +70,11 @@
     background-color: #2d66f5;
     color: white;
     cursor: pointer;
+}
+.landing-items .left .arrow{
+    margin-top: 10px;
+    margin-left: 50px;
+    width:100px;
 }
 
 .right .my-profile{
@@ -93,37 +91,66 @@
 
 
 
-.brand-logos{
-    height: 100%;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    width: 100vw;
+/* tablet devices */
 
-    bottom: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+@media screen and (max-width:768px) {
+    .landing-items .left{
+        width:100%;
+        padding-top: 10px;
+        padding-left: 4vw;
+        /* outline: auto; */
+    }
+    
+    .landing-items .left .title{
+        font-size:35px;
+        width:95%;
+    }
 
-    /* margin: 0 0 2vw 2vw;
-    position: absolute;
-    width: 40vw; */
+    .landing-items .left .sub-title{
+        font-size:18px;
+        margin-top: 20px;
+        width:85%;
+    }
+    .landing-items .left .book-btn{
+        width:100px; 
+        font-size: small;
+        margin-top: 20px;
+    
+    }
+    .landing-items .right{
+        position: absolute;
+        /* width: auto; */
+        height: fit-content; 
+        /* outline: auto; */
+        right: 0;
+        top:50vh;
+    }
 }
-.page1-outlet-icon{
-    object-fit: contain;
-    position: absolute;
 
-    margin: 0 1vw 1vw;
-    object-fit: contain;
-    width: 10vw;
+/* mobile devices */
 
-}
+@media screen and (max-width:425px) {
 
-.page1-outlet-icon1{
-    bottom: 23vw;
-    object-fit: contain;
-    position: absolute;
-    right: 40vw;
-    width: 5vw;
+    
+    .landing-items .left{
+        padding-top: 10px;
+        padding-left: 50px;
 
+    }
+    .landing-items .left .title{
+        font-size:20px;
+        width:75%;
+    }
+
+    .landing-items .left .sub-title{
+        font-size:12px;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .landing-items .left .book-btn{
+        width:100px; 
+        font-size: small;
+        margin-top: 40px;
+    
+    }
 }

@@ -47,11 +47,3 @@ const Home = () => {
 export default Home
 
 
-// <div class="brand-logos">
-//   <img src="https://voosh.in/static/media/page1_1.cb1dbedcdc321b25fb4e.webp" class="page1-outlet-icon1" />
-//   <img src="https://voosh.in/static/media/page1_1.cb1dbedcdc321b25fb4e.webp" class="page1-outlet-icon2" />
-//   <img src="https://voosh.in/static/media/page1_1.cb1dbedcdc321b25fb4e.webp" class="page1-outlet-icon3" />
-//   <img src="https://voosh.in/static/media/page1_1.cb1dbedcdc321b25fb4e.webp" class="page1-outlet-icon4" />
-//   <img src="https://voosh.in/static/media/page1_1.cb1dbedcdc321b25fb4e.webp" class="page1-outlet-icon5" />
-//   <img src="https://voosh.in/static/media/page1_1.cb1dbedcdc321b25fb4e.webp" class="page1-outlet-icon6" />
-// </div>
