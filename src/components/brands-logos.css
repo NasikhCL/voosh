@@ -1,10 +1,5 @@
 .brand-logos{
-    /* outline: auto; */
     bottom: 20px;
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-    /* margin: 0 0 2vw 2vw; */
     position: absolute;
     left:10px;
     height: 100%;
@@ -68,11 +63,11 @@
         width: 80px;
     }
 }
-
+/* mobile view */
 @media screen and (max-width:500px) {
     .brand-logos{
         
-        width: 37vw;
+        width: 40vw;
     }
 
     .page1-outlet-icons{
