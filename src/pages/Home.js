@@ -13,7 +13,7 @@ const Home = () => {
             <div className='left'>
               <div className='title'>Consolidate your restaurants' insights in one place. Unlock growth.</div>
               <div className='sub-title'>Your one stop solution to view mission-critical data and insights from all your locations in one place.</div>
-              <button className='book-btn'>Book Demo</button>
+              <a href='#book-demo-container' className='book-btn'>Book Demo</a>
             </div>
             <div className='right'>
               <img className='three-line' src='https://voosh.in/static/media/three_lines.cb3005e94acb8877cb80.webp'alt='three-line' />
@@ -21,7 +21,43 @@ const Home = () => {
             </div>
           </div>
       </div>
-      
+      <div id='book-demo-container' className='book-demo'>
+        <div className='book-demo-form-title'>Book A Demo Now</div>
+        <div className='book-demo-form-container'>
+          <form className='book-demo-form'>
+            <label htmlFor="name">
+              Name
+              <span style={{color: 'red'}}>*</span>
+            </label>
+            <input type="text" id="name" required placeholder='Ex. Nasikh CL'/>
+            <label htmlFor="email">
+              Email
+              <span style={{color: 'red'}}>*</span>
+            </label>
+            <input type="email" id="email" required placeholder='Ex. nasikcl@gmail.com'/>
+
+            <label htmlFor="password">
+              Password
+              <span style={{color: 'red'}}>*</span>
+            </label>
+            <input type="password" id="password" required  placeholder='Ex. Passwed@123'/>
+
+            <label htmlFor="company">
+              Company Name
+              <span style={{color: 'red'}}>*</span>
+            </label>
+            <input type="text" id="company" required placeholder='Ex. XYZ PVT LTD'/>
+
+            <label htmlFor="title">
+              Your title
+              <span style={{color: 'red'}}>*</span>
+            </label>
+            <input type="text" id="title" required  placeholder='Ex. Operational Head'/>
+        
+            <button type="submit">Book demo</button>
+          </form>
+        </div>
+      </div>
       
     </>
   )
