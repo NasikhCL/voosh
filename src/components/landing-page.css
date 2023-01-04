@@ -3,6 +3,7 @@
     height: 100vh;
     margin-bottom: 500px;
     outline: auto;
+    position: relative;
 }
 .landing-page .navbar{
     position: absolute;
@@ -133,10 +134,14 @@
 
     .landing-page{
     
-        height: 50vh;
+        height: 60vh;
+    }
+    .landing-items{
+      
+        top: 10px;
     }
     .landing-items .left{
-        padding-top: 10px;
+        padding-top: 35px;
         padding-left: 50px;
 
     }
@@ -153,7 +158,7 @@
     .landing-items .left .book-btn{
         width:100px; 
         font-size: small;
-        margin-top: 40px;
+        margin-top: 10px;
     
     }
 }
