@@ -2,8 +2,7 @@ import React,{useEffect, useState} from 'react'
 import Form from '../components/Form'
 import LandingPage from '../components/LandingPage'
 
-// import Navbar from '../components/Navbar'
-// import './home.css'
+
 const Home = () => {
 
   const [isLoggedIn, setIsLoggedIn]= useState(false)
@@ -25,6 +24,13 @@ const Home = () => {
       e.preventDefault()
       console.log('submitted');
       localStorage.setItem('voosh', JSON.stringify({email:formData.email,password: formData.password}))
+      setFormData({
+        name: '',
+        email: '',
+        password: '',
+        companyName: '',
+        title: ''
+      })
       setIsLoggedIn(true)
     }
     useEffect(()=>{
@@ -36,11 +42,10 @@ const Home = () => {
     },[isLoggedIn])
     
   return (
-    <>
+    <div className='home'>
       <LandingPage />
       <Form isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} formData={formData} handleChange={handleChange} handleSubmit={handleSubmit}/>
-      
-    </>
+    </div>
   )
 }
 

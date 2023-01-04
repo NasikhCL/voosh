@@ -2,7 +2,6 @@
     width: 100%;
     height: 100vh;
     margin-bottom: 300px;
-    /* outline: auto; */
     position: relative;
 }
 .landing-page .navbar{
@@ -32,21 +31,18 @@
 .landing-items .right, .landing-items .left {
     width: 50%;
     height: 100%;
-    /* height: inherit; */
-    /* outline: auto; */
+
     padding-left: 2%;
     position: relative;
-    /* outline: auto; */
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: space-evenly; */
+
 }
 .landing-items .left{
     padding-top: 10%;
     padding-left: 4vw;
-    /* border: 2px solid green; */
 }
 .landing-items .left .title{
     
@@ -98,7 +94,7 @@
         width:100%;
         padding-top: 10px;
         padding-left: 4vw;
-        /* outline: auto; */
+
     }
     
     .landing-items .left .title{
@@ -119,9 +115,7 @@
     }
     .landing-items .right{
         position: absolute;
-        /* width: auto; */
         height: fit-content; 
-        /* outline: auto; */
         right: 0;
         top:50vh;
     }

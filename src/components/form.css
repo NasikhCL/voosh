@@ -11,8 +11,7 @@
     background-size: cover;
 }
 .book-demo-form-title{
-    /* outline: auto; */
-    /* width: 50%; */
+ 
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -20,7 +19,6 @@
     margin: 20px 0;
 }
 .book-demo-form-container{
-    /* width: 50%; */
     width: 400px;
     height:auto;
     background-color: white;
@@ -49,6 +47,7 @@
     font-weight: 600;
     font-size: medium;
 }
+/* mobile and tablet screen */
 @media screen and (max-width:768px) {
     .book-demo-form-title{
         font-size: 5vw;
