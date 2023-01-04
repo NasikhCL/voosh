@@ -134,7 +134,7 @@
 
     .landing-page{
     
-        height: 50vh;
+        height: 55vh;
     }
     .landing-items{
       
@@ -161,4 +161,12 @@
         margin-top: 10px;
     
     }
+    .right .my-profile{
+       margin-top: -70px;
+    }
+    .right .three-line{
+        top: -60px;
+        left:10px;
+    }
+    
 }

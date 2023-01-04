@@ -27,15 +27,8 @@
 
 @media screen and (max-width:500px) {
     .brand-logos{
-        outline: auto;
-        bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        /* margin: 0 0 2vw 2vw; */
-        position: absolute;
-        left:10px;
-        width: 40vw;
+        
+        width: 37vw;
     }
 
     .page1-outlet-icons{
