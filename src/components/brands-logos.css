@@ -1,46 +1,47 @@
-.brand-logos{
-    bottom: 20px;
-    position: absolute;
-    left:10px;
-    height: 100%;
-    width: 100%;
+@media screen and (min-width:768px) {
+    .brand-logos{
+        bottom: 20px;
+        position: absolute;
+        left:10px;
+        height: 100%;
+        width: 100%;
+    }
+    .page1-outlet-icons{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+    }
+    .page1-outlet-icon1{
+        position: absolute;
+        margin-left: 10%;
+        bottom:-5%;
+    }
+    .page1-outlet-icon2{
+        position: absolute;
+        margin-left: 30%;
+        top: 50%;
+    }
+    .page1-outlet-icon3{
+        position: absolute;
+        margin-left: 45%;
+        bottom: 10%;
+    }
+    .page1-outlet-icon4{
+        position: absolute;
+        margin-left: 50%;
+        bottom: 50%;
+    }
+    .page1-outlet-icon5{
+        position: absolute;
+        margin-left: 60%;
+        top: 10%;
+    }
+    .page1-outlet-icon6{
+        position: absolute;
+        margin-left: 80%;
+        top: 14%;
+    }
 }
-.page1-outlet-icons{
-    width: 70px;
-    height: 70px;
-    position: absolute;
-}
-.page1-outlet-icon1{
-    position: absolute;
-    margin-left: 10%;
-    bottom:-5%;
-}
-.page1-outlet-icon2{
-    position: absolute;
-    margin-left: 30%;
-    top: 50%;
-}
-.page1-outlet-icon3{
-    position: absolute;
-    margin-left: 45%;
-    bottom: 10%;
-}
-.page1-outlet-icon4{
-    position: absolute;
-    margin-left: 50%;
-    bottom: 50%;
-}
-.page1-outlet-icon5{
-    position: absolute;
-    margin-left: 60%;
-    top: 10%;
-}
-.page1-outlet-icon6{
-    position: absolute;
-    margin-left: 80%;
-    top: 14%;
-}
-
 /* tablet devices */
 
 @media screen and (max-width:768px) {
